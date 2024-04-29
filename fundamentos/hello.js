@@ -4,11 +4,17 @@
  */
 
 
+// Importação de pacotes
+
+const color = require('colors')
+
 //sentenças
-console.log("Hello World")
+console.log("Hello World".america)
 
 //blocos
-{}
+{
+    console.log("Hello Javascript".rainbow)
+}
 
 // omissão de chaves em estruturas de controle
 let media = 7
