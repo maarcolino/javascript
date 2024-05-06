@@ -1,37 +1,37 @@
 /**
 Folha de estilo - Simulador
-@author Enzo Marcolino Lula de Oliveira
+@author João Victor Santos
 */
 /** layout */
- 
+
 body {
     font-family: sans-serif;
     font-size: 1em;
- 
+
 }
- 
+
 img {
     max-width: 100%;
 }
- 
+
 .container {
     margin: 50px 0px;
     text-align: center;
 }
- 
- 
+
+
 /** cabeçalho */
 header h1 {
     color: #cc470d;
     text-align: center;
 }
- 
+
 /** Menu */
 nav {
     width: 100%;
- 
+
 }
- 
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -40,36 +40,36 @@ nav ul {
     overflow: hidden;
     /*esconde a barra de rolagem */
 }
- 
+
 nav ul li {
     float: left;
     color: #ffffff;
     padding: 10px 15px;
 }
- 
+
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
- 
- 
+
+
 }
- 
+
 nav ul li a:hover {
     background-color: #cc470d;
     transition: all 0.4s;
 }
- 
+
 /* conteúdo */
- 
+
 #sw1 {
     float: left;
 }
- 
+
 #sw2 {
     float: right;
 }
- 
- 
+
+
 /* rodapé */
 footer {
     width: 100%;
@@ -78,15 +78,14 @@ footer {
     padding: 5px 0px;
     text-align: center;
 }
- 
-/* layout para telas grandes */
 
+/* layout para telas grandes */
 @media (min-width: 576px) {
     header h1 {
         text-align: left;
     }
 
-    .container{
+    .container {
         text-align: left;
     }
 
@@ -94,4 +93,3 @@ footer {
         float: left;
     }
 }
- 
