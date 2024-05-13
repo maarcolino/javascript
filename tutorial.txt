@@ -113,4 +113,15 @@ Funções em javascript moderno podem ser simplificadas
 _____________________________________________________
 obs:
 typeof // verifica a tipagem dinamica
-tipos primitivos
+tipos primitivos (string, number e boolean)
+function
+Object
+
+_____________________________________________________
+POO - Programação Orientada a Objetos
+
+Pilares:
+- Abstração
+- Herança
+- Polimorfismo
+- Encapsulamento
