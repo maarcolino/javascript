@@ -12,10 +12,10 @@ function calcularMedia() {
     }
 
     if (media < 4) {
-        alert("REPROVADO");
+        document.getElementById('resultado').textContent = "Reprovado | Nota: " + media.toFixed(2);
     } else if (media >= 4 && media < 7) {
-        alert("RECUPERAÇÃO");
+        document.getElementById('resultado').textContent = "Aprovado | Nota: " + media.toFixed(2);
     } else {
-        alert("APROVADO");
+        document.getElementById('resultado').textContent = "Recuperação | Nota: " + media.toFixed(2);
     }
 }
